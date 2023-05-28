@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Friends of Dharmic Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Proxima+Nova:400,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Proxima Nova";
+            margin: 0;
+        }
+
+        nav {
+            padding: 0 20px;
+        }
+
+        nav img {
+            width: 45px;
+        }
+
+        nav h3 {
+            color: rgb(25, 93, 28);
+            font-family: poppins;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        nav a.main-logo {
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            border-bottom: 2px solid #ccc;
+        }
+
+        nav ul {
+            flex: 1;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        nav ul li {
+            padding: 10px;
+            font-family: poppins;
+            display: flex;
+            align-items: flex-end;
+            padding-bottom: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(68, 68, 68);
+        }
+
+        /* on mobile screens */
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            #intro {
+                flex-direction: column;
+            }
+        }
+
+        main>section {
+            margin-bottom: 50px !important;
+        }
+
+        #intro img {
+            width: 100%;
+        }
+
+        #intro {
+            display: flex;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        #intro>section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        button {
+            background-color: rgb(25, 93, 28);
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-family: poppins;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        #about img {
+            width: 100%;
+        }
+
+        #about {
+            display: flex;
+            margin: auto;
+            background: rgb(25, 93, 28);
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        #about button {
+            background-color: #eee;
+            color: rgb(25, 93, 28);
+            margin: auto;
+            text-align: center;
+        }
+
+        #about>section {
+            flex: 1;
+        }
+
+        #about>section.text {
+            padding: 50px;
+            max-width: 500px;
+        }
+
+        #testimonials h1 {
+            text-align: center;
+        }
+
+        #testimonials #students {
+            display: flex;
+        }
+
+        #testimonials #students div {
+            flex: 1;
+            padding: 0 50px;
+        }
+
+        #testimonials #students img {
+            width: 100%;
+        }
+
+        #learn-more {
+            max-width: 1000px;
+            margin: auto;
+        }
+        #learn-more section {
+            display: flex;
+        }
+        #learn-more section div {
+            flex: 1;
+        }
+        #learn-more section div.text {
+            padding: 0 30px;
+        }
+        #learn-more section div > img {
+            max-width: 500px;
+        }
+        #learn-more .buttons {
+            text-align: center;
+        }
+        #learn-more button.social {
+            height: 54px;
+        }
+        #learn-more button.social img {
+            width: 1.5em;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="/" class="main-logo">
+            <img src="logo.jpeg" alt="Logo" />
+            <h3>Friends of<br>Dharmic Life</h3>
+        </a>
+        <ul>
+            <li><a href="https://www.gofundme.com/f/dharmic-life-fundraising">Donate</a></li>
+            <li><a href="https://forms.gle/Hf7CT8GRvsiHo8AX6">Contact</a></li>
+            <li><a href="#about">About Dharmic Life</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="intro">
+            <section>
+                <img src="logo.jpeg" alt="Friends of Dharmic Life" />
+            </section>
+            <section>
+                <h2>Friends of Dharmic Life</h2>
+                <p>
+                    Founded by individuals in the Georgetown University community, Friends of Dharmic Life is a
+                    youth-led initiative that seeks to establish sustained funding for Dharmic organizations,
+                    chaplaincies
+                    and student activities at higher education institutions in the United States. This organization
+                    understands “Dharma” to encapsulate a multitude of spiritual traditions including but not limited to
+                    theist (Śaiva, Śākta, Vaiṣṇava, Smārta, Sikh, Sanātana/Hindu) and non-theist (Buddha, Jain, Yoga)
+                    traditions.
+                </p>
+                <p>
+                    We aim to:</p>
+                <ul>
+                    <li>connect students, alumni, and organizations at local colleges and universities to Dharmic
+                        centers, institutions, and resources in their region;</li>
+                    <li>provide templates and support fundraising activities; and</li>
+                    <li>form a network of Dharmic students and educators at higher education institutions across the
+                        United States.</li>
+                </ul>
+                <a href="https://www.gofundme.com/f/dharmic-life-fundraising"><button>Donate Now</button></a>
+                <a href="https://forms.gle/Hf7CT8GRvsiHo8AX6"><button>Get Updates</button></a>
+            </section>
+        </section>
+        <section id="about">
+            <section class="text">
+                <h1>What is Dharmic Life at Georgetown?</h1>
+                <p>
+                    Dharmic Life at Georgetown seeks to equip every seeker with relevant, logical, and well-explained
+                    teachings and practices from the diverse depths of the Dharmas.</p>
+                <p>We aspire to be a pluralistic space that welcomes everyone inclusive of all varieties of
+                    religious/spiritual, gender, sexuality, physical ability, race, ethnicity, color, class, or caste
+                    identities.
+                </p>
+                <a href="https://campusministry.georgetown.edu/faith-traditions/dharmic/"><button>Learn
+                        More</button></a>
+            </section>
+            <section>
+                <img src="whatis.jpg" alt="Friends of Dharmic Life" />
+            </section>
+        </section>
+        <section id="testimonials">
+            <h1>What Students Are Saying</h1>
+            <section id="students">
+                <div>
+                    <img src="student1.png" alt="Shivani Patel">
+                    <h3>Shivani Patel</h3>
+                    <caption>COL '25</caption>
+                    <p>I cannot express the support and comfort Dharmic Life has provided me. I didn’t come to campus
+                        looking for or expecting any cultural or religious community. I didn’t expect to feel like
+                        crying when I went to my first Arati freshman year and to meet a group of people who’d make that
+                        place home.</p>
+                </div>
+                <div>
+                    <img src="student2.jpeg" alt="Saatvik Kaul">
+                    <h3>Saatvik Kaul
+                    </h3>
+                    <caption>SFS '25</caption>
+                    <p>Dharmic life is what made Georgetown my home away from home, from the second I sat on the blue
+                        prayer mats for the first time this semester. I couldn’t be thankful enough for everyone before
+                        me that made this possible, and I would do anything to be able to see this community thrive for
+                        all those that come after.</p>
+                </div>
+                <div>
+                    <img src="student3.png" alt="Ashwin Ramaswami">
+                    <h3>Ashwin Ramaswami</h3>
+                    <caption>Georgetown Law '25</caption>
+                    <p>Dharmic Life has been such an amazing program and has helped me find both family and community at
+                        Georgetown, and spiritual and philosophical clarity. Here, we are building something great: the
+                        ability for youth to engage with our traditions at a depth that I have never seen before. I hope
+                        this can set an example for how other universities can best support their Dharmic students.</p>
+                </div>
+            </section>
+        </section>
+        <section id="learn-more">
+            <h1>Learn More</h1>
+            <section>
+                <div>
+                    <img src="dharmalaya.png" alt="Dharmalaya" />
+                </div>
+                <div class="text">
+                    <p>
+                        If you would like to learn more and keep in touch with our efforts, please <a href="https://forms.gle/Hf7CT8GRvsiHo8AX6">fill out this form</a> to get updates.
+                    </p>
+                    <p>
+                        Friends of Dharmic Life Inc. is a 501(c)(3) nonprofit organization. Our EIN is 92-2199536.
+                    </p>
+                    <div class="buttons">
+                    <a href="https://www.gofundme.com/f/dharmic-life-fundraising"><button>Donate Now</button></a>
+                    <a href="https://forms.gle/Hf7CT8GRvsiHo8AX6"><button>Get Updates</button></a><br><br>
+                    <a href="https://www.facebook.com/friendsofdharmiclife"><button class="social"><img src="fb.png"></button></a>
+                    <a href="https://www.instagram.com/friendsofdharmiclife/"><button class="social"><img src="instagram.png"></button></a>
+                </div>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
